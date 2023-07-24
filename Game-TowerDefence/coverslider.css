@@ -1,0 +1,47 @@
+#backgroundComer-1{
+    position: absolute;
+    height: 63rem;
+    width: 100rem;
+    background-color: #1e2641 ;
+    left: -42%;
+    top: 25%;
+    transform: rotate(43deg);
+    z-index: 6;
+    animation: backgroundcover1 3s;
+}
+
+#backgroundComer-2{
+    height: 60rem;
+    width: 100rem;
+    position: absolute;
+    background-color: #171c42;
+    transform: rotate(43deg);
+    left: 23.9%;
+    bottom: 16%;
+    z-index: 6;
+    animation: backgroundcover2 3s;
+}
+
+@keyframes backgroundcover2 {
+    from{
+        display: block;
+        left: 23.9%;
+    }
+    to{
+        display: none;
+        left: 104%;
+    }
+}
+
+
+@keyframes backgroundcover1 {
+    
+    from{
+        display: block;
+        left: -42%;
+    }
+    to{
+        display: none;
+        left: -154%;
+    }
+}

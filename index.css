@@ -1,0 +1,174 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+}
+
+p,
+h1,
+h4,
+.btn {
+    font-family: 'Bruno Ace', cursive;
+}
+
+.game {
+    color: white;
+    height: 100%;
+    padding: 1rem 1rem 0 7rem;
+    justify-content: space-between;
+    background-image: url("./screenshots/BC-2.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gamedescription{
+    margin-top: 12rem;
+}
+
+#wholeblock{
+    margin-top: 4rem;
+}
+
+.photodisplay{
+    width: 34rem;
+    height: 19rem;
+    border-radius: 0.8rem;
+    background-color: black;
+    background-image: url('./screenshots/game0_image_0.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 9!important;
+}
+
+#rand{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+}
+
+.gameSS {
+    height: 3rem;
+    margin-top: 0.75rem;
+    margin-left: 0.6rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(61, 57, 57);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gameSS img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    height: 9rem;
+    color: white;
+    align-items: center;
+    border-radius: 1.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 40rem;
+    margin: 0 auto;
+    z-index: 2!important;
+}
+
+.gameIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 10rem;
+    background-color: rgb(119, 59, 184);
+    color: black;
+    text-align: center;
+}
+
+.gameIcon p {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+.inactive {
+    opacity: 1;
+}
+
+.active1 {
+    opacity: 0.3;
+    transition: 500ms;
+}
+
+.inactive1 {
+    opacity: 1;
+    background-color: #fff;
+    box-shadow: 0px 1px 40px 20px #0ff;
+    transition: 1000ms;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+#backgroundComer-1{
+    display: none;
+    position: absolute;
+    height: 63rem;
+    width: 100rem;
+    background-color: #1e2641 ;
+    left: -42%;
+    top: 25%;
+    transform: rotate(43deg);
+    z-index: 6;
+    animation: backgroundcover1 2s;
+}
+
+#backgroundComer-2{
+    display: none;
+    height: 60rem;
+    width: 100rem;
+    position: absolute;
+    background-color: #171c42;
+    transform: rotate(43deg);
+    left: 23.9%;
+    bottom: 16%;
+    z-index: 6;
+    animation: backgroundcover2 2s;
+}
+
+@keyframes backgroundcover2 {
+    from{
+        display: none;
+        left: 104%;
+    }
+    to{
+        display: block;
+        left: 23.9%;
+    }
+}
+
+
+@keyframes backgroundcover1 {
+    from{
+        display: none;
+        left: -154%;
+    }
+
+    to{
+        display: block;
+        left: -42%;
+    }
+}
+
+
+

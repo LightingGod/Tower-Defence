@@ -1,0 +1,98 @@
+body{
+    background-color: #4f331a;
+}
+
+#area1{
+    background-color: #c49147;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#wholearea{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+#area2{
+    background-color: #6b8722;
+    width: 40%;
+    border-radius: 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.myclass{
+    background-color: green;
+    margin-bottom: 0.5rem;
+}
+
+.myclass p{
+    /* text-align: center; */
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.btn{
+    width: 5rem;
+    text-shadow: 1px 1px white;
+    align-self: flex-end;
+}
+
+#gameover{
+    position: absolute;
+    padding: 6rem;
+    top: 25vh;
+    left: 40vw;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+
+#gamecomplete{
+    position: absolute;
+    padding: 6rem;
+    top: 25vh;
+    left: 40vw;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+
+#informations{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.277);
+    z-index: 5;
+}
+
+#informations2{
+    position: relative;
+    top: 3vh;
+    left: 25vw;
+    height: 95vh;
+    width: 50vw;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+#seperatebtn{
+    background-color: rgba(21, 130, 246, 0.833);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+}
